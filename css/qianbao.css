@@ -7,13 +7,14 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 0 0.3rem;
+  align-items: center;
 }
 header a,
 header span {
   display: block;
   font-size: 0.3rem;
   color: #009c7a;
-  margin-top: 0.65rem;
+  /* margin-top: 0.65rem; */
 }
 header span {
   font-size: 0.36rem;

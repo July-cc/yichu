@@ -6,6 +6,7 @@
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 0 0.3rem;
 }
 header a,
@@ -13,7 +14,7 @@ header .h-left span {
   display: block;
   font-size: 0.3rem;
   color: #05ac89;
-  margin-top: 0.66rem;
+  /* margin-top: 0.66rem; */
 }
 header a {
   display: block;

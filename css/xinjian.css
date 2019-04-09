@@ -10,6 +10,7 @@
 header {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   flex-shrink: 0;
   position: relative;
 }
@@ -18,7 +19,7 @@ header a:first-child {
   font-size: 0.35rem;
   font-weight: lighter;
   color: #059979;
-  margin-top: 0.56rem;
+  /* margin-top: 0.56rem; */
   margin-left: 0.3rem;
 }
 header a:nth-child(2) {
@@ -27,7 +28,7 @@ header a:nth-child(2) {
   height: 0.47rem;
   font-size: 0.2rem;
   color: #059979;
-  margin-top: 0.56rem;
+  /* margin-top: 0.56rem; */
   border: 1px solid #059979;
   text-align: center;
   border-radius: 0.3rem;
@@ -40,7 +41,7 @@ header a:last-child {
   font-size: 0.2rem;
   position: absolute;
   color: #059979;
-  top: 0.56rem;
+  top: 0.4rem;
   right: 0.3rem;
   border: 1px solid #059979;
   text-align: center;

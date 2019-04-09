@@ -1,17 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.3rem;
+}
 header .h-left {
-  margin-top: 0.57rem;
-  float: left;
-  margin-left: 0.19rem;
+  display: flex;
+  justify-content: space-between;
 }
 header .h-left > img {
   display: block;
   width: 0.48rem;
   height: 0.48rem;
-  float: left;
-}
-header .h-left .h-left-text {
-  margin-top: 0.1rem;
-  float: left;
 }
 header .h-left .h-left-text > span {
   display: block;
@@ -27,12 +31,7 @@ header .h-left .h-left-text > span:last-child {
 header .h-mid {
   width: 0.6rem;
   text-align: center;
-  float: left;
-  position: fixed;
-  left: 50%;
-  margin-left: -0.3rem;
-  /* margin-left: 2.37rem; */
-  margin-top: 0.57rem;
+  margin-left: -0.9rem;
 }
 header .h-mid span {
   display: block;
@@ -49,10 +48,10 @@ header .h-mid span:last-child {
 }
 header .h-right {
   display: block;
-  float: right;
+  /* float: right; */
   font-size: 0.3rem;
-  margin-top: 0.57rem;
-  margin-right: 0.3rem;
+  /* margin-top: 0.57rem; */
+  /* margin-right: 0.3rem; */
 }
 header .h-right > a {
   display: block;
