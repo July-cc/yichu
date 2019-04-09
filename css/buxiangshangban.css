@@ -1,0 +1,215 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.3rem;
+}
+header a,
+header span {
+  display: block;
+  font-size: 0.3rem;
+  color: #009c7a;
+  margin-top: 0.65rem;
+}
+header span {
+  font-size: 0.36rem;
+}
+header a:last-child {
+  color: #fff;
+}
+section > .s-1 {
+  padding: 0.25rem 0.35rem 0 0.3rem;
+}
+section > .s-1 > .s-top {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+section > .s-1 > .s-top > a {
+  display: block;
+  border: 1px solid #66c1ad;
+  width: 0.95rem;
+  height: 0.38rem;
+  border-radius: 0.3rem;
+}
+section > .s-1 > .s-top > a > span {
+  display: block;
+  font-size: 0.2rem;
+  color: #8c8c8c;
+  text-align: center;
+  line-height: 0.38rem;
+}
+section > .s-1 > .s-top > a:last-child {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #66c1ad;
+  width: 0.95rem;
+  height: 0.38rem;
+  border-radius: 0.3rem;
+}
+section > .s-1 > .s-top > a:last-child > span {
+  color: #fff;
+  line-height: 0.38rem;
+}
+section > .s-1 > .s-top > .s-1-pic {
+  width: 3.2rem;
+  display: flex;
+  justify-content: space-between;
+}
+section > .s-1 > .s-top > .s-1-pic > img {
+  width: 1.01rem;
+  height: 1.01rem;
+}
+section > .s-1 > .s-top > .s-1-pic > .s-1-text > span:first-child {
+  font-size: 0.26rem;
+  color: #787878;
+  display: block;
+  margin-top: 0.19rem;
+  margin-bottom: 0.14rem;
+}
+section > .s-1 > .s-top > .s-1-pic > .s-1-text > span:last-child {
+  font-size: 0.22rem;
+  color: #918f8f;
+  display: block;
+}
+section > .s-1 > p {
+  font-size: 0.26rem;
+  line-height: 0.44rem;
+  text-align: justify;
+  color: #999797;
+  margin: 0.3rem 0;
+}
+section > .s-1 > span {
+  display: block;
+  font-size: 0.18rem;
+  color: #323232;
+}
+section .xian {
+  width: 100%;
+  height: 0.18rem;
+  background-color: #f8f8f8;
+  margin-top: 0.2rem;
+}
+section > .s-2 > ul {
+  width: 2.55rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+section > .s-2 > ul > li {
+  border-bottom: 0.05rem solid #04a885;
+  padding: 0.28rem 0 0.23rem;
+}
+section > .s-2 > ul > li:last-child {
+  border: 0;
+}
+section > .s-2 > ul > li > a {
+  display: block;
+  font-size: 0.28rem;
+  color: #918f8f;
+}
+section > .s-2 > .xian2 {
+  height: 0.05rem;
+  margin-top: -0.05rem;
+}
+section .s-text {
+  background-color: #fff;
+  width: 7.5rem;
+  height: 3.5rem;
+  padding: 0.3rem 0.3rem 0;
+}
+section .s-text .s-1 {
+  width: 100%;
+}
+section .s-text .s-1 .s-1-img {
+  width: 2.15rem;
+  float: left;
+}
+section .s-text .s-1 a {
+  display: block;
+  width: 0.2rem;
+  line-height: 0.68rem;
+  font-size: 0.3rem;
+  float: right;
+}
+section .s-text .s-1 .s-1-img img {
+  width: 0.68rem;
+  height: 0.68rem;
+  float: left;
+}
+section .s-text .s-1 .s-1-img h3 {
+  font-size: 0.24rem;
+  line-height: 0.68rem;
+  color: #918f8f;
+  display: block;
+  float: left;
+  margin-left: 0.2rem;
+}
+section .s-text .s-2 p {
+  margin-top: 0.2rem;
+  font-size: 0.24rem;
+  color: #5c5c5c;
+  line-height: 0.35rem;
+  text-align: justify;
+  margin-bottom: 0.4rem;
+}
+section .s-text .s-3 {
+  display: flex;
+  justify-content: space-between;
+}
+section .s-text .s-3 span {
+  font-size: 0.2rem;
+  color: #b8b8b8;
+}
+section > .s-text .s-3 .zan {
+  font-size: 0.16rem;
+  color: #b2b2b2;
+}
+section > .s-text .s-3 .zan i {
+  margin-right: 0.3rem;
+}
+section > .s-text .s-3 .zan i:last-child {
+  margin-right: 0;
+}
+section .text2 {
+  margin-top: 0.2rem;
+}
+section .text2 .s-2 p {
+  margin-bottom: 0.7rem;
+}
+.footers {
+  flex-shrink: 0;
+  width: 100%;
+  padding: 0.3rem 0.3rem;
+}
+.footers a {
+  display: block;
+  float: left;
+  padding-right: 0.3rem;
+  color: #059979;
+}
+.footers input {
+  display: block;
+  width: 4.5rem;
+  outline: none;
+  border: 0;
+  float: left;
+  line-height: 0.46rem;
+  margin-top: 0.05rem;
+}
+.footers a span {
+  display: block;
+  font-size: 0.46rem;
+}
+.footers a:last-child {
+  font-size: 0.28rem;
+  float: right;
+  padding-right: 0;
+}

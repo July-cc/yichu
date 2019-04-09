@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.3rem;
+}
+header a,
+header span {
+  display: block;
+  font-size: 0.3rem;
+  color: #009c7a;
+  margin-top: 0.65rem;
+}
+header span {
+  font-size: 0.36rem;
+}
+header a:last-child {
+  color: #fff;
+}
+section {
+  padding: 0.36rem 0.3rem 0;
+}
+section > .s-time {
+  width: 1.5rem;
+  font-size: 0.16rem;
+  margin: 0 auto;
+  text-align: center;
+  color: #949595;
+  margin-bottom: 0.2rem;
+}
+section > .s-1 {
+  width: 5rem;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.36rem;
+}
+section > .s-1 > img {
+  width: 0.59rem;
+  height: 0.59rem;
+}
+section > .s-1 > p {
+  width: 4.22rem;
+  font-size: 0.26rem;
+  line-height: 0.38rem;
+  color: #423e3f;
+  background-color: #b7b7b7;
+  border-radius: 0.1rem;
+  padding: 0.27rem 0.22rem 0.29rem 0.27rem;
+}
+section > .s-1-right {
+  float: right;
+}
+section > .s-1-right > p {
+  background-color: #06ad82;
+  color: #fff;
+}
+.footers {
+  flex-shrink: 0;
+  width: 100%;
+  padding: 0.3rem 0.3rem;
+  border-top: 1px solid #059979;
+}
+.footers a {
+  display: block;
+  float: left;
+  padding-right: 0.3rem;
+  color: #059979;
+}
+.footers input {
+  display: block;
+  width: 4.5rem;
+  outline: none;
+  border: 0;
+  float: left;
+  line-height: 0.46rem;
+  margin-top: 0.05rem;
+}
+.footers a span {
+  display: block;
+  font-size: 0.46rem;
+}
+.footers a:last-child {
+  font-size: 0.28rem;
+  float: right;
+  padding-right: 0;
+}

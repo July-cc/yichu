@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.css" />
+    <link rel="stylesheet" href="./css/neirongye.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css"
+    />
+    <script>
+      document.documentElement.style.fontSize =
+        document.documentElement.clientWidth / 7.5 + "px"
+    </script>
+  </head>
+  <body>
+    <div class="wrap">
+      <header>
+        <div class="h-text">
+          <a href="./page2.html"
+            ><i class="fa fa-arrow-left" aria-hidden="true"></i
+          ></a>
+          <a href="javascript:;">关注</a>
+          <a href="javascript:;">已关注</a>
+        </div>
+        <img src="./images/wode/images/2-1_01.png" alt="" />
+        <div class="pic">
+          <img src="./images/wode/images/2_03.png" alt="" />
+          <span>毛毛</span>
+        </div>
+      </header>
+      <section>
+        <div class="article clearfix">
+          <div class="title clearfix">
+            <span class="title-left">浮世绘</span>
+          </div>
+          <h3>我更喜欢努力的自己</h3>
+          <span>2017/5/20</span>
+          <p>
+            你知道，故事的结尾并不重要，生活唯一确保我们的就是死亡。<br />
+            所以我们最好不要让那结尾，夺走了故事的光芒。<br />
+            这大概是钱德勒《漫长的告别》里最红的句子吧。<br />
+            这也是今天看到一个粉丝的留言后，第一时间就想到的一段话。
+          </p>
+          <div class="share">
+            <div>
+              <i class="fa fa-heart-o" aria-hidden="true"></i>
+              <span>71</span>
+            </div>
+            <div>
+              <i class="fa fa-calendar-o" aria-hidden="true"></i
+              ><span>627</span>
+            </div>
+            <div>
+              <i class="fa fa-share-square-o" aria-hidden="true"></i
+              ><span>30</span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <script src="./js/zepto.min.js"></script>
+      <script src="./js/touch.js"></script>
+      <script src="./js/fx.js"></script>
+      <!-- <script src="./js/fx_method.js"></script> -->
+      <script>
+        $("header>.h-text>a")
+          .eq(1)
+          .tap(function() {
+            $(this).css("display", "none")
+            $(".h-text>a")
+              .eq(2)
+              .css("display", "block")
+          })
+        $("header>.h-text>a")
+          .eq(2)
+          .tap(function() {
+            $(this).css("display", "none")
+            $(".h-text>a")
+              .eq(1)
+              .css("display", "block")
+          })
+        $("section>.article>.share>div:nth-child(1)>i").tap(function() {
+          var num = $("section>.article>.share>div:nth-child(1)>span").text()
+          if (num >= 72) {
+            $(this).prop("class", "fa fa-heart-o")
+            num--
+            $("section>.article>.share>div:nth-child(1)>span").text(num)
+          } else {
+            $(this).prop("class", "fa fa-heart")
+            num++
+            $("section>.article>.share>div:nth-child(1)>span").text(num)
+          }
+        })
+      </script>
+    </div>
+  </body>
+</html>

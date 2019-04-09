@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.3rem;
+}
+header a,
+header span {
+  display: block;
+  font-size: 0.3rem;
+  color: #009c7a;
+  margin-top: 0.65rem;
+}
+header span {
+  font-size: 0.36rem;
+}
+header a:last-child {
+  color: #fff;
+}
+section > .swiper-container > .swiper-wrapper > .swiper-slide {
+  width: 100%;
+  height: 3.61rem;
+  position: relative;
+}
+section > .swiper-container > .swiper-wrapper > .swiper-slide > img {
+  width: 100%;
+  height: 100%;
+}
+section > .swiper-container > .swiper-wrapper > .swiper-slide > .s-1 {
+  width: 100%;
+  height: 3.61rem;
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+section
+  > .swiper-container
+  > .swiper-wrapper
+  > .swiper-slide
+  > .s-1
+  > .s-1-text {
+  margin-top: 1.15rem;
+  margin-left: 0.7rem;
+}
+section
+  > .swiper-container
+  > .swiper-wrapper
+  > .swiper-slide
+  > .s-1
+  > .s-1-text
+  > span {
+  display: block;
+  color: #fff;
+}
+section
+  > .swiper-container
+  > .swiper-wrapper
+  > .swiper-slide
+  > .s-1
+  > .s-1-text
+  > span:nth-child(1) {
+  font-size: 0.16rem;
+}
+section
+  > .swiper-container
+  > .swiper-wrapper
+  > .swiper-slide
+  > .s-1
+  > .s-1-text
+  > span:nth-child(2) {
+  font-size: 0.4rem;
+  margin: 0.18rem 0;
+}
+section
+  > .swiper-container
+  > .swiper-wrapper
+  > .swiper-slide
+  > .s-1
+  > .s-1-text
+  > span:nth-child(3) {
+  font-size: 0.18rem;
+}
+section > .swiper-container > .swiper-wrapper > .swiper-slide > span {
+  display: block;
+  position: absolute;
+  right: 0;
+  bottom: 0.2rem;
+  font-size: 0.2rem;
+  width: 0.88rem;
+  line-height: 0.4rem;
+  background-color: #1ccda6;
+  border-radius: 0.4rem 0 0 0.4rem;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+}
+section > .s-two,
+.f-dt {
+  padding: 0 0.3rem;
+}
+section > .s-two > .t-top {
+  width: 2.24em;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+section > .s-two > .t-top span {
+  display: block;
+  font-size: 0.28rem;
+  color: #202020;
+  border-bottom: 2px solid #059979;
+  padding: 0.26rem 0 0.11rem 0;
+}
+section > .s-two > .t-top span:last-child {
+  border: 0;
+  color: #737373;
+}
+section > .s-two > a {
+  display: block;
+}
+section > .s-two > a > .article {
+  display: block;
+  width: 6.99rem;
+  margin-top: 0.44rem;
+  /* margin-left: 0.25rem;
+  margin-right: 0.25rem; */
+}
+section > .s-two > a > .article .title .title-left {
+  float: left;
+  font-size: 0.16rem;
+  line-height: 0.52rem;
+  border-left: 2px solid #28b9ac;
+  padding-left: 0.1rem;
+  color: #28b9ac;
+}
+section > .s-two > a > .article .title .title-right {
+  float: right;
+  font-size: 0.2rem;
+  line-height: 0.52rem;
+}
+section > .s-two > a > .article .title .title-right span {
+  float: left;
+  font-size: 0.14rem;
+  margin-right: 0.1rem;
+  color: #212121;
+}
+section > .s-two > a > .article .title .title-right img {
+  float: left;
+  width: 0.52rem;
+  height: 0.52rem;
+}
+section > .s-two > a > .article .texts {
+  margin-top: 0.1rem;
+  margin-bottom: 0.2rem;
+}
+section > .s-two > a > .article .texts .text {
+  width: 4.1rem;
+  float: left;
+  margin-top: 0.45rem;
+}
+section > .s-two > a > .article .texts .text h3 {
+  font-size: 0.3rem;
+  color: #212121;
+  font-weight: bolder;
+  line-height: 0.46rem;
+  margin-bottom: 0.41rem;
+}
+section > .s-two > a > .article .texts .text p {
+  color: #6a6a6a;
+  font-size: 0.26rem;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+}
+section > .s-two > a > .article .pic {
+  float: right;
+}
+section > .s-two > a > .article .pic img {
+  width: 2.2rem;
+}
+section > .s-two > a > .article .date {
+  width: 6.99rem;
+  display: flex;
+  justify-content: space-between;
+}
+section > .s-two > a > .article .date .time {
+  font-size: 0.16rem;
+  color: #b2b2b2;
+}
+section > .s-two > a > .article .date .zan {
+  font-size: 0.16rem;
+  color: #b2b2b2;
+}
+section > .s-two > a > .article .date .zan i {
+  margin-right: 0.3rem;
+}
+section > .s-two > a > .article .date .zan i:last-child {
+  margin-right: 0;
+}
+section > .s-two .xian {
+  width: 100%;
+  height: 0.18rem;
+  background-color: #f8f8f8;
+  margin-top: 0.2rem;
+}
+.f-dt {
+  display: flex;
+  justify-content: space-between;
+}
+.f-dt > .f-dt-left > img {
+  width: 0.62rem;
+  float: left;
+  margin-right: 0.16rem;
+  margin-top: 0.12rem;
+}
+.f-dt > .f-dt-left > .f-dt-left-text {
+  float: left;
+  margin-top: 0.2rem;
+}
+.f-dt > .f-dt-left > .f-dt-left-text > span:first-child {
+  display: block;
+  font-size: 0.22rem;
+  color: #000;
+  margin-bottom: 0.1rem;
+}
+.f-dt > .f-dt-left > .f-dt-left-text > span:last-child {
+  display: block;
+  font-size: 0.18rem;
+  color: #454545;
+}
+.f-dt > .f-dt-right {
+  padding: 0.19rem 0;
+}
+.f-dt > .f-dt-right > i {
+  font-size: 0.51rem;
+  display: block;
+  float: left;
+  color: #454545;
+}
+.f-dt > .f-dt-right > i:last-child {
+  margin-left: 0.3rem;
+}

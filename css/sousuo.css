@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+.main {
+  background: linear-gradient(#54a3a7, #b9c8a9);
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+}
+.main > .m-top,
+.main > .m-mid {
+  margin: 0.51rem 0.21rem 0 0.25rem;
+}
+.main > .m-top > .search {
+  position: relative;
+  float: left;
+}
+.main > .m-top > .search > i {
+  display: block;
+  font-size: 0.3rem;
+  color: #a7a7a7;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -0.15rem;
+  margin-left: 0.15rem;
+}
+.main > .m-top > .search > input {
+  display: block;
+  width: 5.85rem;
+  line-height: 0.58rem;
+  outline: none;
+  border: 0;
+  padding-left: 0.65rem;
+  background-color: #ececec;
+  border-radius: 0.1rem;
+}
+.main > .m-top > a {
+  display: block;
+  width: 0.6rem;
+  font-size: 0.28rem;
+  color: #a6d4d2;
+  float: right;
+  line-height: 0.58rem;
+  margin-right: 0.2rem;
+}
+.main > .m-mid {
+  width: 7rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.2rem;
+}
+.main > .m-mid > a:first-child {
+  width: 3.45rem;
+  line-height: 0.75rem;
+  text-align: center;
+  color: #fff;
+  background-color: #35efca;
+  border-radius: 0.1rem;
+  font-size: 0.26rem;
+}
+.main > .m-mid > a:last-child {
+  width: 3.45rem;
+  line-height: 0.75rem;
+  text-align: center;
+  color: #9e9e9e;
+  background-color: #f7fbfa;
+  border-radius: 0.1rem;
+  font-size: 0.26rem;
+}
+.main > .m-bottom > ul > li {
+  font-size: 0.36rem;
+  line-height: 0.98rem;
+  border-bottom: 2px solid #74b2ad;
+}
+.main > .m-bottom > ul > li > a {
+  display: block;
+  color: #b5d5d4;
+}
+.main > .m-bottom > ul > li > a > i {
+  margin-left: 0.4rem;
+  margin-right: 0.4rem;
+}

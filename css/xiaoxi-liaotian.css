@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  width: 100%;
+}
+header .text {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.4rem;
+}
+header a:last-child {
+  font-size: 0.3rem;
+  color: #fff;
+  margin-right: 2.4rem;
+}
+header a:last-child span {
+  display: block;
+  font-size: 0.12rem;
+  color: #fff;
+}
+header a:first-child {
+  font-size: 0.3rem;
+  color: #00775d;
+  margin-left: 2.4rem;
+}
+header a:first-child span {
+  display: block;
+  font-size: 0.12rem;
+  color: #00775d;
+}
+section .s-top {
+  width: 100%;
+  height: 0.9rem;
+  background-color: #efefef;
+  position: relative;
+}
+section .s-top a {
+  display: block;
+  color: #c5c5c5;
+  position: absolute;
+  top: 50%;
+  margin-top: -0.12rem;
+  left: 0.4rem;
+  z-index: 2;
+}
+section .s-top a i {
+  display: block;
+  font-size: 0.26rem;
+}
+section .s-top input {
+  display: block;
+  width: 7.02rem;
+  height: 0.54rem;
+  background-color: #fff;
+  outline: none;
+  border: 0;
+  border-radius: 0.1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -0.27rem;
+  margin-left: -3.51rem;
+  padding-left: 0.6rem;
+}
+section .s-top input::-webkit-input-placeholder {
+  color: #cacaca;
+}
+section .s-content .s-content-inner {
+  display: flex;
+  justify-content: space-between;
+}
+section .s-content .s-content-inner .s-content-pic img {
+  width: 0.98rem;
+  height: 0.98rem;
+  display: block;
+  margin: 0.28rem 0.3rem;
+}
+section .s-content .s-content-inner .s-content-text {
+  width: 100%;
+  margin-top: 0.35rem;
+  border-bottom: 1px solid #efefef;
+}
+section .s-content .s-content-inner .s-content-text .s-content-text-top {
+  display: flex;
+  justify-content: space-between;
+}
+section .s-content .s-content-inner .s-content-text .s-content-text-top h3 {
+  font-size: 0.28rem;
+  color: #009c7a;
+}
+section
+  .s-content
+  .s-content-inner
+  .s-content-text
+  .s-content-text-top
+  h3
+  > span {
+  font-size: 0.26rem;
+  background-color: #009c7a;
+  color: #fff;
+  margin-left: 0.1rem;
+  padding: 0.02rem 0.07rem;
+  border-radius: 0.05rem;
+}
+section .s-content .s-content-inner .s-content-text .s-content-text-top > span {
+  font-size: 0.16rem;
+  color: #c7c7c7;
+  margin-bottom: 0.2rem;
+  margin-right: 0.3rem;
+}
+section .s-content .s-content-inner .s-content-text .s-content-text-bottom p {
+  font-size: 0.22rem;
+  width: 5.7rem;
+  color: #777;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.3rem;
+}
+header a,
+header span {
+  display: block;
+  font-size: 0.3rem;
+  color: #009c7a;
+  margin-top: 0.65rem;
+}
+header span {
+  font-size: 0.36rem;
+}
+section {
+  background-color: #f5f5f5;
+  position: relative;
+}
+section .s-1 {
+  background-color: #fff;
+  padding-top: 1.31rem;
+}
+section .s-1 img {
+  display: block;
+  margin: 0 auto;
+  width: 1.64rem;
+  height: 1.56rem;
+}
+section .s-1 .s-1-text {
+  width: 3.05rem;
+  margin: 0 auto;
+  margin-top: 0.45rem;
+  display: flex;
+  align-items: flex-end;
+  /* justify-content: space-between; */
+}
+section .s-1 .s-1-text span {
+  font-size: 0.68rem;
+  color: #ffd800;
+}
+section .s-1 .s-1-text span:nth-child(2) {
+  margin: 0 0.2rem;
+}
+section .s-1 .s-1-text span:last-child {
+  font-size: 0.3rem;
+  align-self: flex-end;
+  margin-bottom: 0.1rem;
+}
+section .s-2 {
+  background-color: #35eecc;
+  margin-top: 0.7rem;
+}
+section .s-2 a {
+  display: block;
+  width: 1.56rem;
+  line-height: 1.17rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+section .s-2 a span {
+  font-size: 0.46rem;
+  color: #fffefc;
+}
+section .s-1 .s-2-text {
+  margin-top: 0;
+  background-color: #fff;
+}
+section .s-1 .s-2-text a span {
+  color: #bcbcbc;
+}
+section .s-3 p {
+  width: 5.15rem;
+  font-size: 0.2rem;
+  text-align: center;
+  margin: 0 auto;
+  color: #a1a1a1;
+  line-height: 0.3rem;
+  margin-top: 0.5rem;
+}
+section .s-4 {
+  width: 2.95rem;
+  margin: 0 auto;
+  position: absolute;
+  left: 50%;
+  margin-left: -1.48rem;
+  bottom: 0.2rem;
+}
+section .s-4 .s-4-top {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 0.08rem;
+}
+section .s-4 .s-4-top span,
+section .s-4 .s-4-bottom {
+  display: block;
+  font-size: 0.2rem;
+  color: #c1c1c1;
+}
+section .s-5 {
+  display: none;
+  width: 6.1rem;
+  border-radius: 0.3rem;
+  background-color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -3.05rem;
+  margin-top: -1.95rem;
+  padding-bottom: 0.3rem;
+}
+section > .s-5 > .s-5-top {
+  line-height: 1.15rem;
+  background-color: #35efcc;
+  font-size: 0.28rem;
+  color: #fff;
+  text-align: center;
+  border-radius: 0.3rem 0.3rem 0 0;
+}
+section > .s-5 > .s-5-mid,
+section > .s-5 > .s-5-bottom {
+  width: 100%;
+  text-align: center;
+}
+section > .s-5 > .s-5-mid > input {
+  outline: none;
+  border: 0;
+  width: 100%;
+  line-height: 0.6rem;
+  font-size: 0.42rem;
+  text-align: center;
+  color: #35efcc;
+  margin-bottom: 0.9rem;
+}
+section > .s-5 > .s-5-mid > input::placeholder {
+  color: #35efcc;
+}
+section > .s-5 > .s-5-bottom > a {
+  display: block;
+  width: 0.7rem;
+  font-size: 0.26rem;
+  color: #35efcc;
+  margin: 0 auto;
+}

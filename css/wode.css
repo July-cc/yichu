@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  height: 4.2rem;
+  border-radius: 0 0 0.5rem 0.5rem;
+  background: linear-gradient(#0ed3e0, #22f6e1);
+  position: relative;
+}
+header .header-top {
+  display: flex;
+  justify-content: space-between;
+  color: #fff;
+  margin-top: 0.68rem;
+  padding: 0 0.3rem;
+  font-size: 0.34rem;
+}
+header .header-top a {
+  opacity: 0.7;
+  font-size: 0.3rem;
+  color: #fff;
+}
+header .header-mid {
+  margin-left: 0.55rem;
+  margin-top: 0.55rem;
+}
+header .header-mid img {
+  width: 1.29rem;
+  height: 1.29rem;
+  float: left;
+  margin-right: 0.1rem;
+}
+header .header-mid .h-m-text {
+  float: left;
+}
+header .header-mid h3 {
+  font-size: 0.26rem;
+  color: #fff;
+  margin-top: 0.36rem;
+}
+header .header-mid p {
+  font-size: 0.22rem;
+  color: #0abcaf;
+  margin-top: 0.12rem;
+}
+header .header-bottom {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 0.4rem;
+}
+header .header-bottom .h-b-text {
+  width: 5.85rem;
+  text-align: center;
+}
+header .header-bottom .h-b-text span:first-child {
+  display: block;
+  font-size: 0.24rem;
+  color: #03a181;
+}
+header .header-bottom .h-b-text span:last-child {
+  display: block;
+  font-size: 0.18rem;
+  color: #0bba9e;
+}
+header .jn {
+  width: 1.12rem;
+  line-height: 0.56rem;
+  background-color: #0bc1b5;
+  position: absolute;
+  right: 0;
+  bottom: 1.5rem;
+  font-size: 0.16rem;
+  color: #fff;
+  text-align: center;
+  border-radius: 0.4rem 0 0 0.4rem;
+}
+header .jn span {
+  font-size: 0.26rem;
+  margin-right: 0.1rem;
+}
+section {
+  width: 100%;
+}
+section .s-one {
+  padding: 0 0.3rem;
+}
+section .s-1 {
+  margin-top: 0.46rem;
+  margin-bottom: 0.28rem;
+  display: flex;
+  justify-content: space-between;
+}
+section .s-1 span {
+  display: block;
+  font-size: 0.26rem;
+  color: #404040;
+}
+section .s-1 a {
+  display: block;
+}
+section .s-2 {
+  display: flex;
+  justify-content: space-between;
+}
+section .s-2 .pic {
+  width: 2.03rem;
+  height: 100%;
+}
+section .s-2 .pic img {
+  display: block;
+  width: 2.03rem;
+  height: 2.1rem;
+}
+section .s-2 .pic span {
+  font-size: 0.26rem;
+  color: #606060;
+  display: block;
+  margin-top: 0.1rem;
+}
+section .xian {
+  width: 100%;
+  height: 0.18rem;
+  background-color: #f8f8f8;
+  margin-top: 0.2rem;
+}
+section .s-two div {
+  padding: 0 0.3rem;
+}
+section .s-two div .s-two-text {
+  display: block;
+  line-height: 0.43rem;
+  padding: 0.26rem 0;
+}
+section .s-two div .s-two-text img {
+  display: block;
+  width: 0.43rem;
+  height: 0.43rem;
+  float: left;
+}
+section .s-two div .s-two-text span {
+  float: left;
+  display: block;
+  font-size: 0.22rem;
+  color: #919191;
+  margin-top: 0.02rem;
+}
+section .s-two div .s-two-text span:nth-child(2) {
+  font-size: 0.26rem;
+  margin: 0 0.25rem;
+  color: #222121;
+  margin-top: 0;
+}
+section .s-two div .s-two-text p:nth-child(4) {
+  float: right;
+  font-size: 0.22rem;
+  color: #919191;
+}
+section .s-two div .s-two-text p:nth-child(4) span {
+  display: block;
+  float: right;
+  font-size: 0.3rem;
+  margin-left: 0.3rem;
+}
+section hr {
+  display: block;
+  margin-left: 0.46rem;
+  border: none;
+  border-bottom: 1px solid #e5e5e8;
+}

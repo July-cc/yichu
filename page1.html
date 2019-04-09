@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script>
+      document.documentElement.style.fontSize =
+        document.documentElement.clientWidth / 7.5 + "px"
+    </script>
+    <link rel="stylesheet" href="./css/page1.css" />
+    <link rel="stylesheet" href="./font_rsknuqj9dar/iconfont.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.staticfile.org/font-awesome/4.7.0/css/font-awesome.css"
+    />
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="back">
+        <a href="./index.html"><span class="iconfont icon-cha cha"></span></a>
+        <a href=""><span class="getback">找回密码</span></a>
+      </div>
+      <div class="content clearfix">
+        <form action="">
+          <div for="" class="email clearfix">
+            <i class="fa fa-user" aria-hidden="true"></i>
+            <input type="text" id="email" placeholder="请输入邮箱地址/手机号" />
+            <p></p>
+          </div>
+          <div for="" class="password clearfix">
+            <i class="fa fa-lock" aria-hidden="true"></i>
+            <input type="password" id="password" placeholder="请输入密码" />
+            <p></p>
+          </div>
+        </form>
+        <div class="logins">
+          <a href="javascript:void(0);" class="login">登录</a>
+        </div>
+        <a href="" class="register">用户注册</a>
+        <div class="share">
+          <div>
+            <a href=""><i class="fa fa-eye" aria-hidden="true"></i></a>
+          </div>
+          <div>
+            <a href=""><i class="fa fa-comments" aria-hidden="true"></i></a>
+          </div>
+          <div>
+            <a href=""><i class="fa fa-qq" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="agree">
+          <span>登录或注册即同意一处</span>
+          <a href="">用户服务协议</a>
+        </div>
+      </div>
+      <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+      <script>
+        var re = /\W/
+        var res = /^[A-Za-z]/
+        var nr = ""
+        var currentPassword = ""
+        var currentEmail = ""
+        $(".content form .email > #email").blur(function() {
+          var neirong = $(this).val()
+          nr = neirong
+          // console.log(re.test(neirong))
+          if (neirong) {
+            if (re.test(neirong)) {
+              $(".content form .email>p").text("可使用字母、数字、下划线")
+              $(".content form .email>p").css("color", "red")
+            } else if (neirong.length < 6 || neirong.length > 18) {
+              $(".content form .email>p").text("6~18个字符")
+              $(".content form .email>p").css("color", "red")
+            } else if (res.test(neirong) === false) {
+              $(".content form .email>p").text("需以字母开头")
+              $(".content form .email>p").css("color", "red")
+            } else {
+              $(".content form .email>p").text("恭喜，邮件地址可注册")
+              $(".content form .email>p").css("color", "green")
+              currentEmail = neirong
+            }
+          }
+        })
+        $(".content form .email > #email").focus(function() {
+          $(".content form .email>p").text("")
+          $(".content form .email>p").css("color", "#ccc")
+          currentEmail = ""
+        })
+        var passText = ""
+        $(".content form .password >#password").blur(function() {
+          var passwordText = $(this).val()
+          passText = passwordText
+          if (passwordText) {
+            if (passwordText.length < 6 || passwordText.length > 18) {
+              $(".content form .password >p").text("密码长度应为6~16个字符")
+              $(".content form .password >p").css("color", "red")
+            } else if (passwordText.match(/^([\S])\1{5,15}$/) != null) {
+              $(".content form .password >p").text(
+                "密码过于简单，请尝试“字母+数字”的组合"
+              )
+              $(".content form .password >p").css("color", "red")
+            } else if (
+              passwordText === "123456" ||
+              passwordText === "1234567" ||
+              passwordText === "12345678" ||
+              passwordText === "123456789" ||
+              passwordText === "1234567890" ||
+              passwordText === "121212" ||
+              passwordText === "123123"
+            ) {
+              $(".content form .password >p").text(
+                "密码过于简单，请尝试“字母+数字”的组合"
+              )
+              $(".content form .password >p").css("color", "red")
+            } else {
+              $(".content form .password >p").text("密码可用")
+              $(".content form .password >p").css("color", "green")
+              currentPassword = passwordText
+            }
+          }
+        })
+        $(".content form .password > #password").focus(function() {
+          $(".content form .password >p")
+            .text("")
+            .css("color", "#ccc")
+          currentPassword = ""
+        })
+        $(".content>.logins").click(function() {
+          if (currentEmail && currentPassword) {
+            console.log(currentPassword && currentEmail)
+            location.href = "./page2.html"
+          } else if (nr === "") {
+            $(".content form .email>p").text("请填写邮件地址")
+            $(".content form .email>p").css("color", "red")
+          } else if (passText === "") {
+            $(".content form .password >p").text("请填写密码")
+            $(".content form .password >p").css("color", "red")
+          }
+        })
+      </script>
+    </div>
+  </body>
+</html>

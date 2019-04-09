@@ -1,0 +1,211 @@
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+  font-size: 0;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+.wrap {
+  font-size: 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-image: url(../images/index/hkhd.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.wrap .back {
+  font-size: 0.5rem;
+  opacity: 0.6;
+  margin-top: 0.7rem;
+}
+.wrap .back a {
+  color: #fff;
+}
+.wrap .back .cha {
+  float: left;
+  margin-left: 0.5rem;
+}
+.wrap .back .getback {
+  float: right;
+  font-size: 0.14rem;
+  margin-right: 0.5rem;
+}
+.wrap .content {
+  width: 4.18rem;
+  margin: 0 auto;
+  margin-top: 5.5rem;
+  opacity: 0.8;
+}
+.wrap .content div i {
+  font-size: 12px;
+  float: left;
+  color: #e2f5f3;
+  display: block;
+  margin-right: 0.15rem;
+  line-height: 30px;
+}
+.wrap .content div input {
+  font-size: 12px;
+  float: left;
+  width: 3.83rem;
+  outline: none;
+  border: 0;
+  border-bottom: 1px solid #e2f5f3;
+  background: transparent;
+  color: #e2f5f3;
+  margin-top: 0.1rem;
+}
+.wrap .content form div p {
+  padding-left: 0.3rem;
+  padding-top: 0.6rem;
+}
+.wrap .content .password {
+  margin-top: 0.3rem;
+}
+.content .email > input::-webkit-input-placeholder,
+.content .password > input::-webkit-input-placeholder {
+  color: #d9f5f3;
+}
+.wrap .content .logins {
+  border: 1px solid #fff;
+  line-height: 0.73rem;
+  width: 100%;
+  margin-top: 0.8rem;
+  border-radius: 0.4rem;
+  padding: 0.02rem;
+}
+.wrap .content .login {
+  display: block;
+  line-height: 0.73rem;
+  color: #fff;
+  font-size: 0.3rem;
+  background-color: #bee7d9;
+  text-align: center;
+  border-radius: 0.4rem;
+}
+.wrap .content .register {
+  display: block;
+  font-size: 0.14rem;
+  text-align: center;
+  color: #fff;
+  margin-top: 0.4rem;
+  opacity: 0.6;
+}
+.wrap .content .share {
+  margin-top: 1.4rem;
+}
+.wrap .content .share > div {
+  border: 1px solid #edf6e7;
+  border-radius: 50%;
+  width: 0.87rem;
+  height: 0.87rem;
+  float: left;
+  margin-right: 0.7rem;
+}
+.wrap .content .share > div:last-child,
+.wrap .content .share > div:last-child i {
+  margin-right: 0;
+}
+.wrap .content .share > div a {
+  display: block;
+  width: 0.87rem;
+  height: 0.87rem;
+  text-align: center;
+}
+.wrap .content .share > div i {
+  width: 0.87rem;
+  line-height: 0.87rem;
+  font-size: 0.5rem;
+}
+.wrap .content .agree {
+  font-size: 0.12rem;
+  color: #fff;
+  margin-top: 3.2rem;
+  text-align: center;
+}
+.wrap .content .agree a {
+  text-decoration: none;
+  color: #fff;
+}

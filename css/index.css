@@ -1,0 +1,129 @@
+* {
+  -webkit-tap-highlight-color: transparent;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+font,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  font-size: 100%;
+  font-family: inherit;
+  vertical-align: baseline;
+}
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+  font-size: 0;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.swiper-container {
+  width: 7.5rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 100%;
+}
+.swiper-wrapper .swiper-slide {
+  position: relative;
+}
+.swiper-wrapper .swiper-slide > .return {
+  position: absolute;
+  top: 0.6rem;
+  right: 0.5rem;
+  font-size: 0.25rem;
+  background-color: rgba(0, 0, 0, 0.05);
+  color: rgba(255, 255, 255, 0.4);
+  padding: 0.07rem 0.2rem;
+  border-radius: 0.2rem;
+}
+.swiper-wrapper .swiper-slide > .come {
+  text-align: center;
+  color: #c6e8d7;
+  font-size: 0.22rem;
+  position: absolute;
+  width: 2rem;
+  line-height: 0.5rem;
+  bottom: 3rem;
+  left: 50%;
+  margin-left: -1rem;
+  background-color: #7ed6ae;
+  border-radius: 0.3rem;
+}

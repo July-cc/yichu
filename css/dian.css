@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0.3rem;
+}
+header a,
+header .h-left span {
+  display: block;
+  font-size: 0.3rem;
+  color: #05ac89;
+  margin-top: 0.66rem;
+}
+header a {
+  display: block;
+  float: left;
+}
+header span {
+  display: block;
+  float: left;
+}
+header .h-left span {
+  margin-left: 0.3rem;
+}
+section .s-2 {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.6rem 0.35rem 0;
+}
+section .s-2 .pic {
+  width: 3.07rem;
+  height: 100%;
+}
+section .s-2 .pic img {
+  display: block;
+  width: 3.07rem;
+  height: 3.18rem;
+}
+section .s-2 .pic span {
+  font-size: 0.3rem;
+  color: #606060;
+  display: block;
+  margin-top: 0.1rem;
+}
