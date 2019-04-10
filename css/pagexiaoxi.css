@@ -1,3 +1,13 @@
+* {
+  box-sizing: border-box;
+}
+.wrap {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
 header {
   width: 100%;
   display: flex;
@@ -23,6 +33,9 @@ header a:last-child span {
   display: block;
   font-size: 0.12rem;
   color: #00775d;
+}
+section {
+  width: 7.5rem;
 }
 section .s-top {
   padding-left: 0.38rem;
@@ -90,18 +103,21 @@ section .s-two {
   /* padding-bottom: 1rem; */
 }
 section .s-two .s-two-text {
-  width: 6.72rem;
+  /* width: 6.72rem; */
+  width: 100%;
   display: flex;
   justify-content: space-between;
   font-size: 0.26rem;
   color: #9b9b9b;
+  padding-right: 0.3rem;
 }
 section .s-two .s-two-text a {
   color: #9b9b9b;
   text-decoration: underline;
 }
 section .s-two-inner {
-  width: 100%;
+  /* width: 100%; */
+  width: 7.5rem;
   overflow: scroll;
   padding-left: 0.38rem;
 }
